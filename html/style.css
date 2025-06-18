@@ -1,0 +1,39 @@
+/* html/style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#mdt-container {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  background: #1e1e1e;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px black;
+  display: none;
+}
+
+#mdt-container.hidden {
+  display: none;
+}
+
+.mdt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#close-btn {
+  background: crimson;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
